@@ -1,0 +1,16 @@
+// ...existing code...
+
+dependencies {
+    // ...existing code...
+    
+    // Compose Runtime
+    implementation "androidx.compose.runtime:runtime:1.5.0"
+    implementation "androidx.compose.runtime:runtime-livedata:1.5.0"
+    
+    // ViewModel Compose integration
+    implementation "androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1"
+    
+    // ...existing code...
+}
+
+// ...existing code...
