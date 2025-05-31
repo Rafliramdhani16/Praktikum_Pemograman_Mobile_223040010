@@ -1,14 +1,22 @@
+apply plugin: 'com.android.application'
+
+// ...existing code...
+
+android {
+    // ...konfigurasi android Anda di sini...
+}
+
 // ...existing code...
 
 dependencies {
     // ...existing code...
     
     // Compose Runtime
-    implementation "androidx.compose.runtime:runtime:1.5.0"
-    implementation "androidx.compose.runtime:runtime-livedata:1.5.0"
+    implementation "androidx.compose.runtime:runtime:1.5.4"
+    implementation "androidx.compose.runtime:runtime-livedata:1.5.4"
     
     // ViewModel Compose integration
-    implementation "androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2"
     
     // ...existing code...
 }
